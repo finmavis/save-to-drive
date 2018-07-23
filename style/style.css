@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+html, body {
+    width: 100%;
+    height:100%;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+}
+
+nav {
+    background-color: #312556;
+}
+
+nav a {
+    font-family: inherit;
+    color: #fff;
+    font-size: 15px;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #ccc;
+}
+
+nav a.navbar-brand {
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #36295f;
+    color: #fff;
+    font-family: inherit;
+}
+
+.home .header {
+    font-family: inherit;
+    text-align: center;
+}
+
+.home hr {
+    background-color: #fff;
+    width: 60px;
+}
+
+.home .cloud-service {
+    margin-bottom: 15px;
+}
+
+.home .cloud-service a {
+    font-size: 2.4em;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #816eb9;
+}
+
+.home .cloud-service a:hover,
+.home .cloud-service a:focus {
+    color: #fff;
+}
+
+.home .form-wrap {
+    width: 60%;
+}
+
+.home .form-wrap input.fourty {
+    width: 40%;
+}
+
+.home .form-wrap .form-check-label {
+    margin-bottom: 5px;
+}
+
+.progress-report {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.upload-item {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    color: #000;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header .text-header {
+    font-family: inherit;
+}
+
+.card-body {
+    display:  flex;
+    justify-content:  space-around;
+    align-items: center;
+    font-family: inherit;
+}
+
+.card-body .progress {
+    flex-grow: 1;
+}
+
+.card-body .file-info {
+    font-family: inherit;
+    font-size: .9rem;
+    margin-left:  25px;
+}
+
+.card-body .file-info h4 {
+    font-family: inherit;
+    font-size: .9rem;
+}
+
+.card-footer span {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.card-footer span:nth-child(1) {
+    margin-left: 0;
+}
+
+.card-footer span:nth-last-child() {
+    margin-right: 0;
+}
+
+.footer {
+    padding: 15px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .03);
+    border-top: 1px solid rgba(0, 0, 0, .125);
+    font-family: inherit;
+    font-size: 0.9rem;
+}
